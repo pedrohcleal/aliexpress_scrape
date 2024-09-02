@@ -1,0 +1,93 @@
+[
+    {
+        "idProduct": 1,
+        "ali_id": "1005007012057921",
+        "ali_link": "https://pt.aliexpress.com/item/1005007012057921.html",
+        "ali_nome_produto": "Fone De Ouvido bluetooth 5.1 M10 Sem Fio tws Est\u00e9reo Com Pod Carregador",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "preco": "R$5,50"
+    },
+    {
+        "idProduct": 2,
+        "ali_id": "1005005970704465",
+        "ali_link": "https://pt.aliexpress.com/item/1005005970704465.html",
+        "ali_nome_produto": "M\u00e1quina De Cortar Cabelo Par\u00e1grafo Barba Masculina Designer Aleat\u00f3rio El\u00e9trico Profissional",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "preco": "R$4,99"
+    },
+    {
+        "idProduct": 3,
+        "ali_id": "1005006437203100",
+        "ali_link": "https://pt.aliexpress.com/item/1005006437203100.html",
+        "ali_nome_produto": "Garrafa T\u00e9rmica \u00e0 V\u00e1cuo 500ml Com Medidor De Temperatura Digital Display Garrafinha De \u00c1gua Com Suporte De Ch\u00e1 A Prova De Vazame",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "preco": "R$4,99"
+    },
+    {
+        "idProduct": 4,
+        "ali_id": "1005007638094274",
+        "ali_link": "https://pt.aliexpress.com/item/1005007638094274.html?spm=a2g0o.productlist.main.3.7ff4VPJiVPJizS&algo_pvid=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16&algo_exp_id=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16-1&pdp_npi=4%40dis%21BRL%213567.42%213567.42%21%21%21600.00%21600.00%21%4021015b2417251532835424525e307e%2112000041598359577%21sea%21BR%210%21ABX&curPageLogUid=g5ZgFYiSH7Z7&utparam-url=scene%3Asearch%7Cquery_from%3A",
+        "ali_nome_produto": "(ORIGINAL) Gigabyte GeForce RTX 4090 GAMUNG OC 24G GDDR6X Gr\u00e1ficos RTX 4090 GPU 384Bit NVIDIA RTX 4090 Placa de v\u00eddeo",
+        "e_primeira_compra": false,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "preco": "R$3.567,42"
+    },
+    {
+        "idProduct": 5,
+        "ali_id": "33021094536",
+        "ali_link": "https://pt.aliexpress.com/item/33021094536.html?spm=a2g0o.order_list.order_list_main.225.1d36caa4l9n3LD&gatewayAdapt=glo2bra",
+        "ali_nome_produto": "ANKOWALL-Mem\u00f3ria de secret\u00e1ria com dissipador de calor, RAM DDR3, DDR4, 4GB, 8GB, 16 GB, 1600MHz, 240Pin, 260Pin, Dimm Suporte da AMD, Intel, Novo",
+        "e_primeira_compra": false,
+        "em_estoque": false,
+        "frete": {
+            "free_shipping": 0,
+            "shipping": 0
+        },
+        "preco": "R$60,82"
+    },
+    {
+        "idProduct": 6,
+        "ali_id": "4001316832800",
+        "ali_link": "https://pt.aliexpress.com/item/4001316832800.html?spm=a2g0o.order_list.order_list_main.45.173bcaa4zXslqC&gatewayAdapt=glo2bra",
+        "ali_nome_produto": "Mkas Correias De Pulso De Levantamento De Peso, Antiderrapante, Flex Gel Grip, Fitness, Muscula\u00e7\u00e3o, Treinamento, Gin\u00e1sio",
+        "e_primeira_compra": false,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 2,
+            "shipping": "R$99,00"
+        },
+        "preco": "R$10,56"
+    },
+    {
+        "idProduct": 7,
+        "ali_id": "1005007623311936",
+        "ali_link": "https://pt.aliexpress.com/item/1005007623311936.html?spm=a2g0o.productlist.main.5.4e6030ecYJ5hRa&pdp_ext_f=%7B%22sku_id%22%3A%2212000041545490702%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3Acategory_navigate",
+        "ali_nome_produto": "Halteres De \u00c1gua Para Mulheres, Barbell Aqu\u00e1tico, Perda De Peso, Abrangente, Home Gym, Fitness, 1kg",
+        "e_primeira_compra": false,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 2,
+            "shipping": "R$99,00"
+        },
+        "preco": "R$25,45"
+    }
+]

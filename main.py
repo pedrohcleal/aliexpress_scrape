@@ -1,13 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 from chrome_config import driver
-
+import json, random
 from time import sleep
-
+from pprint import pprint
 
 def e_primeira_compra(driver: webdriver.Chrome, wait_time):
     class_name = "price-banner--container--tdrR7MT"
@@ -17,7 +16,6 @@ def e_primeira_compra(driver: webdriver.Chrome, wait_time):
         )
         return True
     except TimeoutException:
-        print('elemento de 1ª compra não encontrado')
         return False
 
 
@@ -47,18 +45,18 @@ def verificar_estoque(driver: webdriver.Chrome, wait_time):
 
 def tratar_texto_frete(texto: str):
     if not texto:
-        return {'free_shipping': 0, 'shipping': 0}        # sem preço de frete/ sem estoque
+        return {'free_shipping': 0, 'shipping': 0}  #---------- Sem preço de frete/ sem estoque
     texto = texto.strip()
     if texto == 'Frete grátis':
-        return {'free_shipping': 1, 'shipping': 0}        # frete grátis 
+        return {'free_shipping': 1, 'shipping': 0}   #--------- Frete grátis comum
     elif 'acima de' in texto:   
         index_reais = texto.index('R$')              
-        preco_frete = texto[index_reais::]           # Frete grátis acima de R$99,00
-        return {'free_shipping': 2, 'shipping': preco_frete}  
+        preco_frete = texto[index_reais::]           
+        return {'free_shipping': 2, 'shipping': preco_frete}  # Frete grátis acima de R$99,00
     else:                                               
-        index_reais = texto.index('R$')              # Frete: R$20,74
+        index_reais = texto.index('R$')              
         preco_frete = texto[index_reais::]
-        return {'free_shipping': 3, 'shipping': preco_frete}
+        return {'free_shipping': 3, 'shipping': preco_frete}  # Frete: R$20,74
 
 
 def texto_frete(driver: webdriver.Chrome, wait_time):
@@ -76,63 +74,56 @@ def texto_frete(driver: webdriver.Chrome, wait_time):
 
 def get_ali_id(url):
     try:
-        ali_id = url.split('/')[-1]#.replace('.html','')
+        ali_id = url.split('/')[-1]
         index_html = ali_id.index('.html')
         ali_id = ali_id[:index_html:]
         int(ali_id)
+        return ali_id
     except ValueError as err:
-        print('O id aliexpress está corrompido, por favor verificar URL ')
+        print(f'O id aliexpress está corrompido, por favor verificar URL -> {url}')
         raise err
 
 if __name__ == '__main__':
     print("Iniciando Scraping")
-    
-    urls = [
-        "https://pt.aliexpress.com/item/1005007012057921.html", #frete gratis total
-        "https://pt.aliexpress.com/item/1005005970704465.html",
-        "https://pt.aliexpress.com/item/1005006437203100.html",
-        "https://pt.aliexpress.com/item/1005007638094274.html?spm=a2g0o.productlist.main.3.7ff4VPJiVPJizS&algo_pvid=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16&algo_exp_id=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16-1&pdp_npi=4%40dis%21BRL%213567.42%213567.42%21%21%21600.00%21600.00%21%4021015b2417251532835424525e307e%2112000041598359577%21sea%21BR%210%21ABX&curPageLogUid=g5ZgFYiSH7Z7&utparam-url=scene%3Asearch%7Cquery_from%3A",
-        "https://pt.aliexpress.com/item/33021094536.html?spm=a2g0o.order_list.order_list_main.225.1d36caa4l9n3LD&gatewayAdapt=glo2bra", 
-        "https://pt.aliexpress.com/item/4001316832800.html?spm=a2g0o.order_list.order_list_main.45.173bcaa4zXslqC&gatewayAdapt=glo2bra", # frete acima de 99
-        "https://pt.aliexpress.com/item/1005007623311936.html?spm=a2g0o.productlist.main.5.4e6030ecYJ5hRa&pdp_ext_f=%7B%22sku_id%22%3A%2212000041545490702%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3Acategory_navigate",
-    ]       # frete de ....
+    json_file = open('exemplo.json').read() # inserir nome do arquivo para ser lido ('exemplo.json')
+    json_load = json.loads(json_file)
     try:
-        for url in urls:
-            print(f'URL = {url}') 
+        final_json = []
+        for json_dicts in json_load:
+            print(f'Verificando URL = {json_dicts['link']}')
             
+            url = json_dicts['link']
             dados_item = {}
+            dados_item['idProduct'] = json_dicts["idProduct"]
             dados_item['ali_id'] = get_ali_id(url)
             dados_item['ali_link'] = url
-            
+    
             driver.get(url)
-            sleep(2)
+            sleep(random.randrange(3,7))
             
             titulo = driver.find_element(By.CSS_SELECTOR,'#root > div > div.pdp-body.pdp-wrap > div > div.pdp-body-top-left > div.pdp-info > div.pdp-info-right > div.title--wrap--UUHae_g > h1')
-            print(f'Nome do produto {titulo.text}')
+            dados_item['ali_nome_produto'] = ' '.join((titulo.text).split(' ')).replace('\n','').strip()
             dados_item['ali_nome_produto'] = titulo.text
             
-            max_wait_time = 2 # tempo máximo pra esperar pra achar elemento no site
+            max_wait_time = 4
             if e_primeira_compra(driver, max_wait_time):
-                print('stock true (tem promo de 1ª compra)')
                 dados_item['e_primeira_compra'] = True
             else:
-                print('stock false (não tem promo de 1ª compra)')
                 dados_item['e_primeira_compra'] = False
                 
             if verificar_estoque(driver, max_wait_time):
                 dados_item['em_estoque'] = True
-                print('Produto com estoque disponível')
             else:
                 dados_item['em_estoque'] = False
-                print('Produto sem estoque disponível')
-            
-            frete = texto_frete(driver, max_wait_time)
-            dados_item['frete'] = frete
-            
+                
+            dados_item['frete'] = texto_frete(driver, max_wait_time)
             dados_item['preco'] = preco_produto(driver, max_wait_time)              
+            pprint(dados_item)
+            print()
+            final_json.append(dados_item)
+        with open('final_updates_ali.json', 'w') as file:
+            json.dump(final_json, file, indent=4)
             
-            import pprint
-            pprint.pprint(dados_item.items())
     finally:
         print('fim scraping')
         driver.quit()
