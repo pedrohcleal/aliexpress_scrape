@@ -97,8 +97,9 @@ if __name__ == '__main__':
             dados_item['idProduct'] = json_dict["idProduct"]
             dados_item['ali_id'] = get_ali_id(url)
             dados_item['ali_link'] = url
-            dados_item['oldPrice'] = json_dict['oldPrice']
+            dados_item['oldPrice'] = json_dict["oldPrice"]
             dados_item["oldStock"] = json_dict["oldStock"]
+            
             driver.get(url)
             sleep(random.randrange(3,7))
             
