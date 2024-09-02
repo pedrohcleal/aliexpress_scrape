@@ -20,11 +20,12 @@ Este projeto realiza scraping de dados de produtos do Aliexpress, extraindo info
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/pedrohcleal/aliexpress_srape.git
    ```
 
 2. Crie e ative um ambiente virtual:
    ```bash
+   python -m venv venv
    source venv/bin/activate  # No Windows: venv\Scripts\activate
    ```
 
