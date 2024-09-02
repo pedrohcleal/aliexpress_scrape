@@ -4,7 +4,6 @@ Este projeto realiza scraping de dados de produtos do Aliexpress, extraindo info
 
 ## Estrutura de Arquivos
 
-- `/venv`: Diretório do ambiente virtual contendo as dependências do projeto.
 - `/chrome_config`: Configuração do driver do Chrome para uso com Selenium.
 - `main.py`: Script principal que executa o scraping dos produtos.
 - `exemplo.json`: Arquivo de exemplo contendo os links e IDs dos produtos a serem analisados.
