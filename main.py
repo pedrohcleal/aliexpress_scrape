@@ -90,7 +90,7 @@ if __name__ == '__main__':
     try:
         final_json = []
         for json_dict in json_load:
-            print(f'Verificando URL = {json_dict['link']}')
+            print(f'Verificando URL = {json_dict["link"]}')
             
             url = json_dict['link']
             dados_item = {}
