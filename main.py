@@ -102,7 +102,6 @@ if __name__ == '__main__':
             sleep(random.randrange(3,7))
             
             titulo = driver.find_element(By.CSS_SELECTOR,'#root > div > div.pdp-body.pdp-wrap > div > div.pdp-body-top-left > div.pdp-info > div.pdp-info-right > div.title--wrap--UUHae_g > h1')
-            dados_item['ali_nome_produto'] = ' '.join((titulo.text).split(' ')).replace('\n','').strip()
             dados_item['ali_nome_produto'] = titulo.text
             
             max_wait_time = 4
