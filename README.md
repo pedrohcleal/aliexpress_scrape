@@ -25,8 +25,8 @@ Este projeto realiza scraping de dados de produtos do Aliexpress, extraindo info
 
 2. Crie e ative um ambiente virtual:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
+   python -m venv venv     # No Linux: python3 -m venv venv   
+   venv\Scripts\activate   # No Linux: source venv/bin/activate
    ```
 
 3. Instale as dependências:
@@ -34,17 +34,26 @@ Este projeto realiza scraping de dados de produtos do Aliexpress, extraindo info
    pip install -r requirements.txt
    ```
 
-4. Configure o driver do Chrome na pasta `chrome_config`.
+4. Configure o driver do Chrome na pasta `chrome_config` caso seja necessário, mas já está pronto para uso
 
 ### Como Usar
 
 1. Edite o arquivo `exemplo.json` com os produtos que deseja consultar. O formato é:
    ```json
    [
-     {
-       "idProduct": "123",
-       "link": "https://www.aliexpress.com/item/example.html"
-     }
+       {
+           "link": "https://pt.aliexpress.com/item/1005007012057921.html",
+           "idProduct" : 1,
+           "oldPrice": 5.50,
+           "oldStock" : 10
+       },
+       {
+           "link": "https://pt.aliexpress.com/item/1005005970704465.html",
+           "idProduct" : 2,
+           "oldPrice": 5.50,
+           "oldStock" : 10
+       },
+      ...
    ]
    ```
 
