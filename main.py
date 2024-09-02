@@ -89,15 +89,16 @@ if __name__ == '__main__':
     json_load = json.loads(json_file)
     try:
         final_json = []
-        for json_dicts in json_load:
-            print(f'Verificando URL = {json_dicts['link']}')
+        for json_dict in json_load:
+            print(f'Verificando URL = {json_dict['link']}')
             
-            url = json_dicts['link']
+            url = json_dict['link']
             dados_item = {}
-            dados_item['idProduct'] = json_dicts["idProduct"]
+            dados_item['idProduct'] = json_dict["idProduct"]
             dados_item['ali_id'] = get_ali_id(url)
             dados_item['ali_link'] = url
-    
+            dados_item['oldPrice'] = json_dict['oldPrice']
+            dados_item["oldStock"] = json_dict["oldStock"]
             driver.get(url)
             sleep(random.randrange(3,7))
             
