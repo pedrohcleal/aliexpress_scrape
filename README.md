@@ -86,7 +86,9 @@ O script gera um arquivo `final_updates_ali.json` com as seguintes informações
         "e_primeira_compra": true,
         "em_estoque": false,
         "frete": {"free_shipping": 1, "shipping": "0"},
-        "preco": "R$100,00"
+        "preco": "R$100,00",
+        "OldStock": 20,
+        "oldPrice": 23.40,
     }
 ]
 ```
