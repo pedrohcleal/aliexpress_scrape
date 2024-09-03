@@ -2,43 +2,43 @@
     {
         "link": "https://pt.aliexpress.com/item/1005007012057921.html",
         "idProduct" : 1,
-        "oldPrice": 5.50,
+        "oldPrice": 1.10,
         "oldStock" : 10
     },
     {
         "link": "https://pt.aliexpress.com/item/1005005970704465.html",
         "idProduct" : 2,
-        "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldPrice": 2.20,
+        "oldStock" : 20
     },
     {
         "link": "https://pt.aliexpress.com/item/1005006437203100.html",
         "idProduct" : 3,
-        "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldPrice": 3.30,
+        "oldStock" : 30
     },
     {
         "link": "https://pt.aliexpress.com/item/1005007638094274.html?spm=a2g0o.productlist.main.3.7ff4VPJiVPJizS&algo_pvid=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16&algo_exp_id=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16-1&pdp_npi=4%40dis%21BRL%213567.42%213567.42%21%21%21600.00%21600.00%21%4021015b2417251532835424525e307e%2112000041598359577%21sea%21BR%210%21ABX&curPageLogUid=g5ZgFYiSH7Z7&utparam-url=scene%3Asearch%7Cquery_from%3A",
         "idProduct" : 4,
-        "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldPrice": 4.40,
+        "oldStock" : 40
     },
     {
         "link": "https://pt.aliexpress.com/item/33021094536.html?spm=a2g0o.order_list.order_list_main.225.1d36caa4l9n3LD&gatewayAdapt=glo2bra",
         "idProduct" : 5,
         "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldStock" : 50
     },
     {
         "link": "https://pt.aliexpress.com/item/4001316832800.html?spm=a2g0o.order_list.order_list_main.45.173bcaa4zXslqC&gatewayAdapt=glo2bra",
         "idProduct" : 6,
-        "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldPrice": 6.60,
+        "oldStock" : 60
     },
     {
         "link": "https://pt.aliexpress.com/item/1005007623311936.html?spm=a2g0o.productlist.main.5.4e6030ecYJ5hRa&pdp_ext_f=%7B%22sku_id%22%3A%2212000041545490702%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3Acategory_navigate",
         "idProduct" : 7,
-        "oldPrice": 5.50,
-        "oldStock" : 10
+        "oldPrice": 7.70,
+        "oldStock" : 70
     }
 ]

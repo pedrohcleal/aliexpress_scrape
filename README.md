@@ -24,7 +24,7 @@ Este projeto realiza scraping de dados de produtos do Aliexpress, extraindo info
 
 2. Crie e ative um ambiente virtual:
    ```bash
-   python -m venv venv     # No Linux: python3 -m venv venv   
+   python -m venv venv     # No Linux: python3 -m venv venv
    venv\Scripts\activate   # No Linux: source venv/bin/activate
    ```
 
