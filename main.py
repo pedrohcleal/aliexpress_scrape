@@ -94,15 +94,11 @@ def get_ali_id(url):
 
 if __name__ == "__main__":
     print("Iniciando Scraping")
-    json_file = open(
-        "exemplo.json"
-    ).read()  # inserir nome do arquivo para ser lido ('exemplo.json')
+    json_file = open("exemplo.json").read()  # inserir nome do arquivo para ser lido ('exemplo.json')
     json_load = json.loads(json_file)
     try:
         final_json = []
         for json_dict in json_load:
-            print(f'Verificando URL = {json_dict["link"]}')
-
             url = json_dict["link"]
             dados_item = {}
             dados_item["idProduct"] = json_dict["idProduct"]
@@ -111,6 +107,7 @@ if __name__ == "__main__":
             dados_item["oldPrice"] = json_dict["oldPrice"]
             dados_item["oldStock"] = json_dict["oldStock"]
 
+            print(f'Carregando página, URL = {json_dict["link"]}')
             driver.get(url)
             sleep(random.randrange(3, 6))
 
@@ -133,9 +130,9 @@ if __name__ == "__main__":
 
             dados_item["frete"] = texto_frete(driver, max_wait_time)
             dados_item["newPrice"] = preco_produto(driver, max_wait_time)
+            final_json.append(dados_item)
             pprint(dados_item)
             print()
-            final_json.append(dados_item)
         with open("final_updates_ali.json", "w", encoding="utf8") as file:
             json.dump(final_json, file, indent=4, ensure_ascii=False)
 
