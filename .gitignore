@@ -3,7 +3,7 @@
 /aliexpress
 /kabum
 # $$$$
-
+.pre-commit-config.yaml
 
 /venv
 
@@ -12,8 +12,7 @@ __pycache__/
 *.py[cod]
 /.mypy_cache
 #/kabum_sqlite_telegram
-# C extensions
-*.so
+# C extensions*.so
 /__pycache__
 # Distribution / packaging
 bin/
