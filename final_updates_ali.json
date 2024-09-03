@@ -1,10 +1,7 @@
 [
     {
-        "idProduct": 1,
         "ali_id": "1005007012057921",
         "ali_link": "https://pt.aliexpress.com/item/1005007012057921.html",
-        "oldPrice": 1.3,
-        "oldStock": 10,
         "ali_nome_produto": "Fone De Ouvido bluetooth 5.1 M10 Sem Fio tws Estéreo Com Pod Carregador",
         "e_primeira_compra": true,
         "em_estoque": true,
@@ -12,14 +9,14 @@
             "free_shipping": 1,
             "shipping": 0
         },
-        "newPrice": "R$5,50"
+        "idProduct": 1,
+        "newPrice": "R$5,50",
+        "oldPrice": 1.1,
+        "oldStock": 10
     },
     {
-        "idProduct": 2,
         "ali_id": "1005005970704465",
         "ali_link": "https://pt.aliexpress.com/item/1005005970704465.html",
-        "oldPrice": 2.3,
-        "oldStock": 20,
         "ali_nome_produto": "Máquina De Cortar Cabelo Parágrafo Barba Masculina Designer Aleatório Elétrico Profissional",
         "e_primeira_compra": true,
         "em_estoque": true,
@@ -27,14 +24,14 @@
             "free_shipping": 1,
             "shipping": 0
         },
-        "newPrice": "R$4,99"
+        "idProduct": 2,
+        "newPrice": "R$4,99",
+        "oldPrice": 2.2,
+        "oldStock": 20
     },
     {
-        "idProduct": 3,
         "ali_id": "1005006437203100",
         "ali_link": "https://pt.aliexpress.com/item/1005006437203100.html",
-        "oldPrice": 3.4,
-        "oldStock": 30,
         "ali_nome_produto": "Garrafa Térmica à Vácuo 500ml Com Medidor De Temperatura Digital Display Garrafinha De Água Com Suporte De Chá A Prova De Vazame",
         "e_primeira_compra": true,
         "em_estoque": true,
@@ -42,14 +39,14 @@
             "free_shipping": 1,
             "shipping": 0
         },
-        "newPrice": "R$4,99"
+        "idProduct": 3,
+        "newPrice": "R$4,99",
+        "oldPrice": 3.3,
+        "oldStock": 30
     },
     {
-        "idProduct": 4,
         "ali_id": "1005007638094274",
         "ali_link": "https://pt.aliexpress.com/item/1005007638094274.html?spm=a2g0o.productlist.main.3.7ff4VPJiVPJizS&algo_pvid=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16&algo_exp_id=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16-1&pdp_npi=4%40dis%21BRL%213567.42%213567.42%21%21%21600.00%21600.00%21%4021015b2417251532835424525e307e%2112000041598359577%21sea%21BR%210%21ABX&curPageLogUid=g5ZgFYiSH7Z7&utparam-url=scene%3Asearch%7Cquery_from%3A",
-        "oldPrice": 4.4,
-        "oldStock": 40,
         "ali_nome_produto": "(ORIGINAL) Gigabyte GeForce RTX 4090 GAMUNG OC 24G GDDR6X Gráficos RTX 4090 GPU 384Bit NVIDIA RTX 4090 Placa de vídeo",
         "e_primeira_compra": false,
         "em_estoque": true,
@@ -57,14 +54,14 @@
             "free_shipping": 1,
             "shipping": 0
         },
-        "newPrice": "R$3.546,24"
+        "idProduct": 4,
+        "newPrice": "R$3.546,24",
+        "oldPrice": 4.4,
+        "oldStock": 40
     },
     {
-        "idProduct": 5,
         "ali_id": "33021094536",
         "ali_link": "https://pt.aliexpress.com/item/33021094536.html?spm=a2g0o.order_list.order_list_main.225.1d36caa4l9n3LD&gatewayAdapt=glo2bra",
-        "oldPrice": 5.5,
-        "oldStock": 50,
         "ali_nome_produto": "ANKOWALL-Memória de secretária com dissipador de calor, RAM DDR3, DDR4, 4GB, 8GB, 16 GB, 1600MHz, 240Pin, 260Pin, Dimm Suporte da AMD, Intel, Novo",
         "e_primeira_compra": false,
         "em_estoque": false,
@@ -72,14 +69,14 @@
             "free_shipping": 0,
             "shipping": 0
         },
-        "newPrice": "R$60,46"
+        "idProduct": 5,
+        "newPrice": "R$60,46",
+        "oldPrice": 5.5,
+        "oldStock": 50
     },
     {
-        "idProduct": 6,
         "ali_id": "4001316832800",
         "ali_link": "https://pt.aliexpress.com/item/4001316832800.html?spm=a2g0o.order_list.order_list_main.45.173bcaa4zXslqC&gatewayAdapt=glo2bra",
-        "oldPrice": 6.6,
-        "oldStock": 60,
         "ali_nome_produto": "Mkas Correias De Pulso De Levantamento De Peso, Antiderrapante, Flex Gel Grip, Fitness, Musculação, Treinamento, Ginásio",
         "e_primeira_compra": false,
         "em_estoque": true,
@@ -87,14 +84,14 @@
             "free_shipping": 2,
             "shipping": "R$99,00"
         },
-        "newPrice": "R$10,36"
+        "idProduct": 6,
+        "newPrice": "R$10,36",
+        "oldPrice": 6.6,
+        "oldStock": 60
     },
     {
-        "idProduct": 7,
         "ali_id": "1005007623311936",
         "ali_link": "https://pt.aliexpress.com/item/1005007623311936.html?spm=a2g0o.productlist.main.5.4e6030ecYJ5hRa&pdp_ext_f=%7B%22sku_id%22%3A%2212000041545490702%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3Acategory_navigate",
-        "oldPrice": 7.7,
-        "oldStock": 70,
         "ali_nome_produto": "Halteres De Água Para Mulheres, Barbell Aquático, Perda De Peso, Abrangente, Home Gym, Fitness, 1kg",
         "e_primeira_compra": false,
         "em_estoque": true,
@@ -102,6 +99,9 @@
             "free_shipping": 2,
             "shipping": "R$99,00"
         },
-        "newPrice": "R$25,18"
+        "idProduct": 7,
+        "newPrice": "R$25,18",
+        "oldPrice": 7.7,
+        "oldStock": 70
     }
 ]

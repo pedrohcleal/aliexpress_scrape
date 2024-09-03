@@ -102,8 +102,8 @@ if __name__ == "__main__":
             url = json_dict["link"]
             dados_item = {}
             dados_item["idProduct"] = json_dict["idProduct"]
-            dados_item["ali_id"] = get_ali_id(url)
-            dados_item["ali_link"] = url
+            dados_item["id_ali"] = get_ali_id(url)
+            dados_item["link_ali"] = url
             dados_item["oldPrice"] = json_dict["oldPrice"]
             dados_item["oldStock"] = json_dict["oldStock"]
 
@@ -118,6 +118,9 @@ if __name__ == "__main__":
             dados_item["ali_nome_produto"] = titulo.text
 
             max_wait_time = 1  # tempo máximo para achar o elemento no site nas funções
+            dados_item["frete"] = texto_frete(driver, max_wait_time)
+            dados_item["newPrice"] = preco_produto(driver, max_wait_time)
+            
             if e_primeira_compra(driver, max_wait_time):
                 dados_item["e_primeira_compra"] = True
             else:
@@ -128,13 +131,11 @@ if __name__ == "__main__":
             else:
                 dados_item["em_estoque"] = False
 
-            dados_item["frete"] = texto_frete(driver, max_wait_time)
-            dados_item["newPrice"] = preco_produto(driver, max_wait_time)
             final_json.append(dados_item)
             pprint(dados_item)
             print()
         with open("final_updates_ali.json", "w", encoding="utf8") as file:
-            json.dump(final_json, file, indent=4, ensure_ascii=False)
+            json.dump(final_json, file, indent=4, ensure_ascii=False, sort_keys=True)
 
     finally:
         print("fim scraping")
