@@ -1,22 +1,5 @@
 [
     {
-        "ali_id": "1005007012057921",
-        "ali_link": "https://pt.aliexpress.com/item/1005007012057921.html",
-        "ali_nome_produto": "Fone De Ouvido bluetooth 5.1 M10 Sem Fio tws Estéreo Com Pod Carregador",
-        "e_primeira_compra": true,
-        "em_estoque": true,
-        "frete": {
-            "free_shipping": 1,
-            "shipping": 0
-        },
-        "idProduct": 1,
-        "newPrice": "R$5,50",
-        "oldPrice": 1.1,
-        "oldStock": 10
-    },
-    {
-        "ali_id": "1005005970704465",
-        "ali_link": "https://pt.aliexpress.com/item/1005005970704465.html",
         "ali_nome_produto": "Máquina De Cortar Cabelo Parágrafo Barba Masculina Designer Aleatório Elétrico Profissional",
         "e_primeira_compra": true,
         "em_estoque": true,
@@ -24,15 +7,30 @@
             "free_shipping": 1,
             "shipping": 0
         },
-        "idProduct": 2,
+        "idProduct": 1,
+        "id_ali": "1005005970704465",
+        "link_ali": "https://pt.aliexpress.com/item/1005005970704465.html",
         "newPrice": "R$4,99",
-        "oldPrice": 2.2,
-        "oldStock": 20
+        "oldPrice": "4.99",
+        "oldStock": 100
     },
     {
-        "ali_id": "1005006437203100",
-        "ali_link": "https://pt.aliexpress.com/item/1005006437203100.html",
-        "ali_nome_produto": "Garrafa Térmica à Vácuo 500ml Com Medidor De Temperatura Digital Display Garrafinha De Água Com Suporte De Chá A Prova De Vazame",
+        "ali_nome_produto": "Ws-887 Mini alto-falante, Bluetooth 5.0, Caixa De Som",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 2,
+        "id_ali": "1005005722064647",
+        "link_ali": "https://pt.aliexpress.com/item/1005005722064647.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 12 Pares Meias Soquetes ótima qualidade unissex",
         "e_primeira_compra": true,
         "em_estoque": true,
         "frete": {
@@ -40,68 +38,745 @@
             "shipping": 0
         },
         "idProduct": 3,
+        "id_ali": "1005007012415182",
+        "link_ali": "https://pt.aliexpress.com/item/1005007012415182.html",
         "newPrice": "R$4,99",
-        "oldPrice": 3.3,
-        "oldStock": 30
+        "oldPrice": "4.99",
+        "oldStock": 100
     },
     {
-        "ali_id": "1005007638094274",
-        "ali_link": "https://pt.aliexpress.com/item/1005007638094274.html?spm=a2g0o.productlist.main.3.7ff4VPJiVPJizS&algo_pvid=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16&algo_exp_id=1b3bf686-46d3-4c12-a9c9-9ed0c24f9a16-1&pdp_npi=4%40dis%21BRL%213567.42%213567.42%21%21%21600.00%21600.00%21%4021015b2417251532835424525e307e%2112000041598359577%21sea%21BR%210%21ABX&curPageLogUid=g5ZgFYiSH7Z7&utparam-url=scene%3Asearch%7Cquery_from%3A",
-        "ali_nome_produto": "(ORIGINAL) Gigabyte GeForce RTX 4090 GAMUNG OC 24G GDDR6X Gráficos RTX 4090 GPU 384Bit NVIDIA RTX 4090 Placa de vídeo",
-        "e_primeira_compra": false,
+        "ali_nome_produto": "Garrafa Térmica à Vácuo 500ml Com Medidor De Temperatura Digital Display Garrafinha De Água Com Suporte De Chá A Prova De Vazame",
+        "e_primeira_compra": true,
         "em_estoque": true,
         "frete": {
             "free_shipping": 1,
             "shipping": 0
         },
         "idProduct": 4,
-        "newPrice": "R$3.546,24",
-        "oldPrice": 4.4,
-        "oldStock": 40
+        "id_ali": "1005006437203100",
+        "link_ali": "https://pt.aliexpress.com/item/1005006437203100.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
     },
     {
-        "ali_id": "33021094536",
-        "ali_link": "https://pt.aliexpress.com/item/33021094536.html?spm=a2g0o.order_list.order_list_main.225.1d36caa4l9n3LD&gatewayAdapt=glo2bra",
-        "ali_nome_produto": "ANKOWALL-Memória de secretária com dissipador de calor, RAM DDR3, DDR4, 4GB, 8GB, 16 GB, 1600MHz, 240Pin, 260Pin, Dimm Suporte da AMD, Intel, Novo",
-        "e_primeira_compra": false,
-        "em_estoque": false,
+        "ali_nome_produto": "Sapateira Organizador Sapatos Prateleira 8 Pares Desmontável",
+        "e_primeira_compra": true,
+        "em_estoque": true,
         "frete": {
-            "free_shipping": 0,
+            "free_shipping": 1,
             "shipping": 0
         },
         "idProduct": 5,
-        "newPrice": "R$60,46",
-        "oldPrice": 5.5,
-        "oldStock": 50
+        "id_ali": "1005005198221822",
+        "link_ali": "https://pt.aliexpress.com/item/1005005198221822.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
     },
     {
-        "ali_id": "4001316832800",
-        "ali_link": "https://pt.aliexpress.com/item/4001316832800.html?spm=a2g0o.order_list.order_list_main.45.173bcaa4zXslqC&gatewayAdapt=glo2bra",
-        "ali_nome_produto": "Mkas Correias De Pulso De Levantamento De Peso, Antiderrapante, Flex Gel Grip, Fitness, Musculação, Treinamento, Ginásio",
-        "e_primeira_compra": false,
+        "ali_nome_produto": "Espelho Adesivo Plástico Decorativo Flexível Adesivo Espelhado Retangular ou Oval 30x40 - Neverdie Store",
+        "e_primeira_compra": true,
         "em_estoque": true,
         "frete": {
-            "free_shipping": 2,
-            "shipping": "R$99,00"
+            "free_shipping": 1,
+            "shipping": 0
         },
         "idProduct": 6,
-        "newPrice": "R$10,36",
-        "oldPrice": 6.6,
-        "oldStock": 60
+        "id_ali": "1005007553330831",
+        "link_ali": "https://pt.aliexpress.com/item/1005007553330831.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
     },
     {
-        "ali_id": "1005007623311936",
-        "ali_link": "https://pt.aliexpress.com/item/1005007623311936.html?spm=a2g0o.productlist.main.5.4e6030ecYJ5hRa&pdp_ext_f=%7B%22sku_id%22%3A%2212000041545490702%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3Acategory_navigate",
-        "ali_nome_produto": "Halteres De Água Para Mulheres, Barbell Aquático, Perda De Peso, Abrangente, Home Gym, Fitness, 1kg",
-        "e_primeira_compra": false,
+        "ali_nome_produto": "Processador Manual Triturador de Alimentos 3 Laminas 500 ml - Neverdie",
+        "e_primeira_compra": true,
         "em_estoque": true,
         "frete": {
-            "free_shipping": 2,
-            "shipping": "R$99,00"
+            "free_shipping": 1,
+            "shipping": 0
         },
         "idProduct": 7,
-        "newPrice": "R$25,18",
-        "oldPrice": 7.7,
-        "oldStock": 70
+        "id_ali": "1005006286944823",
+        "link_ali": "https://pt.aliexpress.com/item/1005006286944823.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Espremedor Amassador Triturador De Alho Inox Manual Cozinha Garlic Press",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 8,
+        "id_ali": "1005005176982653",
+        "link_ali": "https://pt.aliexpress.com/item/1005005176982653.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "NEVERDIE-Mini Lanterna LED Recarregável, E Zoom P, Regular Alone, Via USB-Envio IMEDIATO PARA TODO BRASIL",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 9,
+        "id_ali": "1005004584966156",
+        "link_ali": "https://pt.aliexpress.com/item/1005004584966156.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Cabo HDMI 4K ULTRA HD 3D 5 Metros",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 10,
+        "id_ali": "1005005559464374",
+        "link_ali": "https://pt.aliexpress.com/item/1005005559464374.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "NEVERDIE STORE - Suporte Para Celular De Mesa Com Altura Ajustavel Angulo 360º Universal ENVIO RAPIDO PARA TODO O BRASIL",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 11,
+        "id_ali": "1005005095319295",
+        "link_ali": "https://pt.aliexpress.com/item/1005005095319295.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Garrafa de Chifres de Natal Para Crianças em Idade Escolar Unicórnio Animal dos Desenhos Animados Garrafa de água de bebê",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 12,
+        "id_ali": "1005006463705431",
+        "link_ali": "https://pt.aliexpress.com/item/1005006463705431.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "NEVERDIE STORE - Caixa Caixinha Som Portátil 3w Usb P2 Pc Notebook Celular Conveniente ENVIO RAPIDO PARA TODO O BRASIL",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 13,
+        "id_ali": "1005004746653094",
+        "link_ali": "https://pt.aliexpress.com/item/1005004746653094.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "kit de escova de limpeza de teclado 8 em 1 multifuncional portátil para computador/fone de ouvido/ferramentas - Neverdie Store",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 14,
+        "id_ali": "1005007120152579",
+        "link_ali": "https://pt.aliexpress.com/item/1005007120152579.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Balança LCD Display Escala de Bagagem, Eletrônico, Pendurado Mala, Viagem Pesa, Saco de Bagagem, Equilíbrio de Peso, Ferramenta",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 15,
+        "id_ali": "1005007063549035",
+        "link_ali": "https://pt.aliexpress.com/item/1005007063549035.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Adaptador de áudio Placa de Som externa 7.1 usb Conversor de cartão Com USB ADT-085",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 16,
+        "id_ali": "1005006857266819",
+        "link_ali": "https://pt.aliexpress.com/item/1005006857266819.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Cabo Roteamento V8 para Celular, 2.4A, 1 Metro, RE-CBO-6009",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 17,
+        "id_ali": "1005006591182151",
+        "link_ali": "https://pt.aliexpress.com/item/1005006591182151.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Bomba De Garrafa De Água Automática Portátil Dispensador Elétrico De Água Fria Para Garrafa Reutilizável USB Beber Auto Switch",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 18,
+        "id_ali": "1005006445747715",
+        "link_ali": "https://pt.aliexpress.com/item/1005006445747715.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Almofada Mousepad Gel Preto Apoio Pequeno Preto",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 19,
+        "id_ali": "1005006956901300",
+        "link_ali": "https://pt.aliexpress.com/item/1005006956901300.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Universal RGB LED Mouse para Sem Fio, RGB Mouse Clip, AP04",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 20,
+        "id_ali": "1005006940128923",
+        "link_ali": "https://pt.aliexpress.com/item/1005006940128923.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Fone Ouvido Bluetooth I7s Sem Fio",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 21,
+        "id_ali": "1005007577431132",
+        "link_ali": "https://pt.aliexpress.com/item/1005007577431132.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Mini Processador De Alimentos Elétrico 250ml Triturador Recarregável Sem Fio Utensilio de cozinha",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 22,
+        "id_ali": "1005006013818073",
+        "link_ali": "https://pt.aliexpress.com/item/1005006013818073.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "4 Pilha AA Recarregavel 4700mAh - Neverdie Store",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 23,
+        "id_ali": "1005006441383708",
+        "link_ali": "https://pt.aliexpress.com/item/1005006441383708.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 20 Pinceis Diamond Transparente De Maquiagem Make-UP Brilhante Kit De Cosmética",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 24,
+        "id_ali": "1005004859587178",
+        "link_ali": "https://pt.aliexpress.com/item/1005004859587178.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Fluido Emgrossador Encoorpa Haskell 120Ml",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 25,
+        "id_ali": "1005006645138139",
+        "link_ali": "https://pt.aliexpress.com/item/1005006645138139.html",
+        "newPrice": "R$9,98",
+        "oldPrice": "9.98",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "SEIVA NUTRITIVA MURUMURU 35ML",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 26,
+        "id_ali": "1005006644987589",
+        "link_ali": "https://pt.aliexpress.com/item/1005006644987589.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Complexo Cavalo Forte Haskell",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 27,
+        "id_ali": "1005006645171434",
+        "link_ali": "https://pt.aliexpress.com/item/1005006645171434.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Paleta De Pica Iluminador, Bronzer, Control Luisance, 06 Cores",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 28,
+        "id_ali": "1005005197779135",
+        "link_ali": "https://pt.aliexpress.com/item/1005005197779135.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Contorno Cordless Dhermosa, HF092, 3 em 1",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 29,
+        "id_ali": "1005005197789675",
+        "link_ali": "https://pt.aliexpress.com/item/1005005197789675.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Cola Macrilan Para Os Cílios Branca",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 30,
+        "id_ali": "1005005176932143",
+        "link_ali": "https://pt.aliexpress.com/item/1005005176932143.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Porta Pincel Organizador Maquiagem Suporte De Pincel Para Make Canetas Mesa",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 31,
+        "id_ali": "1005006478504743",
+        "link_ali": "https://pt.aliexpress.com/item/1005006478504743.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 2 Escovas Mágicas Desembaraça Cabelo",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 32,
+        "id_ali": "1005005159128287",
+        "link_ali": "https://pt.aliexpress.com/item/1005005159128287.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "short yoga，short esportivo feminino，academia，short，calça pantalona feminina，short alfaiataria feminino，shorts femenino，calção，",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 33,
+        "id_ali": "1005006947450809",
+        "link_ali": "https://pt.aliexpress.com/item/1005006947450809.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "short yoga，short esportivo feminino，academia，short，calça pantalona feminina，short alfaiataria feminino，shorts femenino，calção，",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 34,
+        "id_ali": "1005006947450809",
+        "link_ali": "https://pt.aliexpress.com/item/1005006947450809.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "short yoga，short esportivo feminino，academia，short，calça pantalona feminina，short alfaiataria feminino，shorts femenino，calção，",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 35,
+        "id_ali": "1005006947450809",
+        "link_ali": "https://pt.aliexpress.com/item/1005006947450809.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Cubo Mágico Anti-stress 3x3x3 Interativo Profissional Speed Gold Edition",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 36,
+        "id_ali": "1005005262969691",
+        "link_ali": "https://pt.aliexpress.com/item/1005005262969691.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Garrafa de agua quadrada com tampa rosca e ALÇA colors squeezze de plastico para academia trabalho caminhada esporte 450ml",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 37,
+        "id_ali": "1005004894646192",
+        "link_ali": "https://pt.aliexpress.com/item/1005004894646192.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Carregador MÁQUINA DE RELING, V8 2 USB, Carro-8003",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 38,
+        "id_ali": "1005006590052746",
+        "link_ali": "https://pt.aliexpress.com/item/1005006590052746.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Hand Grip Mola Com Ajuste 5kg A 60kg Fisioterapia Anti-braço",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 39,
+        "id_ali": "1005005774319355",
+        "link_ali": "https://pt.aliexpress.com/item/1005005774319355.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Garrafa Squeeze Fosca 500ml com Alça e Frases",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 40,
+        "id_ali": "1005005317763344",
+        "link_ali": "https://pt.aliexpress.com/item/1005005317763344.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "12/24/36/48 Cores Brush Ponta Pincel Lettering Duas Pontas Dupla Ponta Barato",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 41,
+        "id_ali": "1005006867685801",
+        "link_ali": "https://pt.aliexpress.com/item/1005006867685801.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 5 Pares Cilios Conjunto De Delineador Magnético De Cílios",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 42,
+        "id_ali": "1005004885063215",
+        "link_ali": "https://pt.aliexpress.com/item/1005004885063215.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Estilete Profissional De Alta Qualidade Com 5 Lâminas 18mm - Neverdie Store",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 43,
+        "id_ali": "1005005953387551",
+        "link_ali": "https://pt.aliexpress.com/item/1005005953387551.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Escova Mágica de Cabo para Desembaraçar Cabelos",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 44,
+        "id_ali": "1005007214905276",
+        "link_ali": "https://pt.aliexpress.com/item/1005007214905276.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit com 2 Mantinhas Pet Cores Sortidas",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 45,
+        "id_ali": "1005006088387161",
+        "link_ali": "https://pt.aliexpress.com/item/1005006088387161.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 14 Presilha De Cabelo Infantil Feminina Com Desenho Acessórios De Cabelo",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 46,
+        "id_ali": "1005006478267847",
+        "link_ali": "https://pt.aliexpress.com/item/1005006478267847.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Tapete Macarrão Antiderrapante 60x40 cores sortidas",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 47,
+        "id_ali": "1005006174775086",
+        "link_ali": "https://pt.aliexpress.com/item/1005006174775086.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Silicone Dispenser Shampoo para Animais, Sabonete Escova",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 48,
+        "id_ali": "1005006337964279",
+        "link_ali": "https://pt.aliexpress.com/item/1005006337964279.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit 48 Xuxinhas com lacinho Elásticos de cabelo",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 49,
+        "id_ali": "1005005341603822",
+        "link_ali": "https://pt.aliexpress.com/item/1005005341603822.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Henna para Design de Sobrancelha Profissional Makiaj",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 50,
+        "id_ali": "1005006093076791",
+        "link_ali": "https://pt.aliexpress.com/item/1005006093076791.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Henna para Design de Sobrancelha Profissional Makiaj",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 1,
+            "shipping": 0
+        },
+        "idProduct": 51,
+        "id_ali": "1005006093076791",
+        "link_ali": "https://pt.aliexpress.com/item/1005006093076791.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
+    },
+    {
+        "ali_nome_produto": "Kit Chave De Fenda Philips Isolada Eletricista 6 Peças Imã",
+        "e_primeira_compra": true,
+        "em_estoque": true,
+        "frete": {
+            "free_shipping": 3,
+            "shipping": "R$10,03"
+        },
+        "idProduct": 52,
+        "id_ali": "1005005797778811",
+        "link_ali": "https://pt.aliexpress.com/item/1005005797778811.html",
+        "newPrice": "R$4,99",
+        "oldPrice": "4.99",
+        "oldStock": 100
     }
 ]

@@ -6,7 +6,7 @@ from selenium import webdriver
 from chrome_config import driver
 import json, random
 from time import sleep
-from pprint import pprint
+import pprint
 
 
 def e_primeira_compra(driver: webdriver.Chrome, wait_time):
@@ -96,16 +96,19 @@ if __name__ == "__main__":
     print("Iniciando Scraping")
     json_file = open("exemplo.json").read()  # inserir nome do arquivo para ser lido ('exemplo.json')
     json_load = json.loads(json_file)
+    contador = 0
     try:
         final_json = []
         for json_dict in json_load:
+            contador += 1
             url = json_dict["link"]
-            dados_item = {}
-            dados_item["idProduct"] = json_dict["idProduct"]
-            dados_item["id_ali"] = get_ali_id(url)
-            dados_item["link_ali"] = url
-            dados_item["oldPrice"] = json_dict["oldPrice"]
-            dados_item["oldStock"] = json_dict["oldStock"]
+            dados_item = {
+                "idProduct": json_dict["idProduct"],
+                "id_ali": get_ali_id(url),
+                "link_ali": url,
+                "oldPrice": json_dict["oldPrice"],
+                "oldStock": json_dict["oldStock"]
+            }
 
             print(f'Carregando página, URL = {json_dict["link"]}')
             driver.get(url)
@@ -132,7 +135,9 @@ if __name__ == "__main__":
                 dados_item["em_estoque"] = False
 
             final_json.append(dados_item)
-            pprint(dados_item)
+            print('Produto lido:')
+            pprint.pprint(dados_item)
+            print(f'Quantidade de itens lidos até o momento -> {contador}')
             print()
         with open("final_updates_ali.json", "w", encoding="utf8") as file:
             json.dump(final_json, file, indent=4, ensure_ascii=False, sort_keys=True)
