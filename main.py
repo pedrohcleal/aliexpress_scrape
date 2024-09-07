@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
             print(f'Carregando página, URL = {json_dict["link"]}')
             driver.get(url)
-            sleep(random.randrange(10, 20))
+            sleep(random.randrange(10, 20))  # ajustar tempo de mundança de link -> randrange(10,20) -> escolhe tempo aleatorio entre 10 a 20segundos
 
             titulo = driver.find_element(
                 By.CSS_SELECTOR,
