@@ -14,7 +14,7 @@ if __name__ == "__main__":
     json_load = load_json_file(path_json)
     contador = 0
     driver = get_driver()
-    sleep(2)
+    sleep(1)
     print(f'Json lido = {path_json}')
     try:
         final_json = []
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
             print(f'Carregando página, URL = {json_dict["link"]}')
             driver.get(url)
-            sleep(random.randrange(3, 6))
+            sleep(random.randrange(10, 20))
 
             titulo = driver.find_element(
                 By.CSS_SELECTOR,
